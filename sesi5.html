@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id" class="h-full bg-slate-900 text-slate-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus HCI & Data Visualization - BRIN</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="h-full font-sans antialiased bg-slate-900 text-slate-100">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-slate-800/90 backdrop-blur border-b border-slate-700 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="p-2 bg-violet-600 rounded-lg text-white">
+                        <i class="fa-solid fa-wand-magic-sparkles text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-lg leading-tight text-white">Informatics Practitioner Lecture Series</h1>
+                        <p class="text-xs text-violet-400">Human-Computer Interaction & Data Visualization</p>
+                    </div>
+                </div>
+                <div class="text-xs bg-violet-950/80 text-violet-300 border border-violet-700/50 px-3 py-1.5 rounded-lg font-medium">
+                    Pusat Riset Sains Data & Informasi - BRIN
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- Hero Banner Sesi 5 -->
+        <div class="bg-gradient-to-r from-violet-900/60 via-slate-800 to-fuchsia-950/80 border border-violet-500/30 rounded-2xl p-6 md:p-8 mb-8 shadow-xl">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <span class="bg-violet-500/20 text-violet-300 text-xs font-bold px-3 py-1 rounded-full border border-violet-500/40 uppercase tracking-wider">Studi Kasus 5: IMK & Visualisasi Data</span>
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-white mt-2">Human-Computer Interaction & Data Visualization</h2>
+                    <p class="text-slate-300 text-sm mt-1">Pemateri: <span class="font-semibold text-violet-300">Arafat Febriandirza, S.T., M.T., Ph.D.</span> (Ketua Kelompok Riset IMK & Visualisasi Data, BRIN)</p>
+                </div>
+                <div class="flex items-center space-x-2 bg-slate-900/80 px-4 py-2 rounded-xl border border-slate-700 text-xs text-slate-300">
+                    <i class="fa-solid fa-brain text-violet-400 text-lg"></i>
+                    <span>User-Centered Design & Cognitive Load</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Metric Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Aturan Emas UCD</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-xl font-bold text-violet-400">You ≠ User</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Perancang bukanlah pengguna akhir produk</p>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Prinsip Edward Tufte</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-xl font-bold text-white">Data-Ink Ratio</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Eliminasi *chartjunk* & fokus pada data murni</p>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Working Memory</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-xl font-bold text-fuchsia-400">7 ± 2 Chunk</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Kapasitas memori sementara otak manusia</p>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Visual Interaction Mantra</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-xl font-bold text-amber-400">Shneiderman</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Overview First, Zoom & Filter, Details on Demand</p>
+            </div>
+        </div>
+
+        <!-- Cognitive Psychology & Gestalt Laws -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+            <div class="lg:col-span-2 bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl">
+                <h3 class="text-lg font-bold text-white mb-4 flex items-center space-x-2">
+                    <i class="fa-solid fa-shapes text-violet-400"></i>
+                    <span>Psikologi Kognitif & Hukum Persepsi Gestalt</span>
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700/60">
+                        <span class="text-xs font-bold text-violet-400 uppercase">1. Proximity (Kedekatan)</span>
+                        <p class="text-slate-300 text-xs mt-1">Elemen visual yang saling berdekatan akan dianggap sebagai satu kelompok fungsional yang sama oleh persepsi otak.</p>
+                    </div>
+                    <div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700/60">
+                        <span class="text-xs font-bold text-violet-400 uppercase">2. Similarity (Kesamaan)</span>
+                        <p class="text-slate-300 text-xs mt-1">Objek yang memiliki bentuk, warna, atau ukuran serupa dipersepsikan memiliki korelasi atau fungsi yang seragam.</p>
+                    </div>
+                    <div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700/60">
+                        <span class="text-xs font-bold text-violet-400 uppercase">3. Enclosure & Closure</span>
+                        <p class="text-slate-300 text-xs mt-1">Garis batas pembungkus (*border*) mempertegas grup data, sementara otak secara otomatis melengkapi pola visual yang terputus.</p>
+                    </div>
+                    <div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700/60">
+                        <span class="text-xs font-bold text-violet-400 uppercase">4. Preattentive Attributes</span>
+                        <p class="text-slate-300 text-xs mt-1">Pemrosesan bawah sadar (< 200 ms) terhadap warna kontras, ukuran, dan posisi sebelum otak menyadari informasi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 Nielsen Usability Heuristics -->
+            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl">
+                <h3 class="text-lg font-bold text-white mb-4 flex items-center space-x-2">
+                    <i class="fa-solid fa-list-check text-violet-400"></i>
+                    <span>Prinsip Usability Nielsen</span>
+                </h3>
+                <div class="space-y-2 text-xs">
+                    <div class="p-2.5 bg-slate-900/80 rounded-lg border-l-4 border-violet-500">
+                        <strong class="text-violet-300 block">Visibility of System Status</strong>
+                        <span class="text-slate-400">Umpan balik langsung (contoh: loading bar).</span>
+                    </div>
+                    <div class="p-2.5 bg-slate-900/80 rounded-lg border-l-4 border-fuchsia-500">
+                        <strong class="text-fuchsia-300 block">User Control & Freedom</strong>
+                        <span class="text-slate-400">Pintu keluar darurat yang jelas (*Undo / Cancel*).</span>
+                    </div>
+                    <div class="p-2.5 bg-slate-900/80 rounded-lg border-l-4 border-amber-500">
+                        <strong class="text-amber-300 block">Error Prevention & Recognition</strong>
+                        <span class="text-slate-400">Pencegahan salah input & *recognition over recall*.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive Simulator: Data-Ink Ratio & Chartjunk Optimizer -->
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl" x-data="{
+            show3D: true,
+            showGrid: true,
+            showBackground: true,
+            get chartjunkScore() {
+                let score = 0;
+                if(this.show3D) score += 40;
+                if(this.showGrid) score += 30;
+                if(this.showBackground) score += 30;
+                return score;
+            },
+            get dataInkRatio() {
+                return 100 - this.chartjunkScore;
+            }
+        }">
+            <h3 class="text-lg font-bold text-white mb-2 flex items-center space-x-2">
+                <i class="fa-solid fa-sliders text-violet-400"></i>
+                <span>Simulator Optimasi Data-Ink Ratio (Edward Tufte Principle)</span>
+            </h3>
+            <p class="text-xs text-slate-400 mb-6">Uji tingkat efisiensi visualisasi data dengan mengeliminasi elemen dekoratif tanpa fungsi (*chartjunk*).</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Controls -->
+                <div class="space-y-4">
+                    <span class="text-xs font-bold text-slate-300 block">Elemen Visual Grafis:</span>
+                    
+                    <label class="flex items-center space-x-3 bg-slate-900 p-3 rounded-xl border border-slate-700 cursor-pointer">
+                        <input type="checkbox" x-model="show3D" class="rounded accent-violet-500 w-4 h-4">
+                        <div>
+                            <span class="text-xs font-bold text-white block">Efek Bayangan / 3D Extra</span>
+                            <span class="text-[10px] text-slate-400">Menambah beban kognitif berlebih</span>
+                        </div>
+                    </label>
+
+                    <label class="flex items-center space-x-3 bg-slate-900 p-3 rounded-xl border border-slate-700 cursor-pointer">
+                        <input type="checkbox" x-model="showGrid" class="rounded accent-violet-500 w-4 h-4">
+                        <div>
+                            <span class="text-xs font-bold text-white block">Garis Kisi-Kisi Tebal (Heavy Gridlines)</span>
+                            <span class="text-[10px] text-slate-400">Mengganggu fokus membaca data</span>
+                        </div>
+                    </label>
+
+                    <label class="flex items-center space-x-3 bg-slate-900 p-3 rounded-xl border border-slate-700 cursor-pointer">
+                        <input type="checkbox" x-model="showBackground" class="rounded accent-violet-500 w-4 h-4">
+                        <div>
+                            <span class="text-xs font-bold text-white block">Background Warna Gelap Bertekstur</span>
+                            <span class="text-[10px] text-slate-400">Mengurangi tingkat kontras grafik</span>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- Simulation Output -->
+                <div class="md:col-span-2 bg-slate-900/80 border border-slate-700/80 rounded-xl p-5 flex flex-col justify-between">
+                    <div>
+                        <div class="grid grid-cols-2 gap-4 text-center mb-6">
+                            <div class="bg-slate-800/80 p-4 rounded-lg border border-slate-700">
+                                <span class="text-xs text-slate-400 block">Tingkat Chartjunk (Beban Visual)</span>
+                                <span class="text-2xl font-black mt-1 block" :class="chartjunkScore > 30 ? 'text-rose-400' : 'text-emerald-400'" x-text="chartjunkScore + '%'"></span>
+                            </div>
+                            <div class="bg-slate-800/80 p-4 rounded-lg border border-slate-700">
+                                <span class="text-xs text-slate-400 block">Efisiensi Data-Ink Ratio</span>
+                                <span class="text-2xl font-black mt-1 block" :class="dataInkRatio >= 70 ? 'text-emerald-400' : 'text-amber-400'" x-text="dataInkRatio + '%'"></span>
+                            </div>
+                        </div>
+
+                        <!-- Visual Representation -->
+                        <div class="p-6 rounded-xl border text-center transition-all" :class="showBackground ? 'bg-slate-950 border-slate-600' : 'bg-slate-800 border-slate-700'">
+                            <div class="h-24 flex items-end justify-center space-x-6 relative">
+                                <template x-if="showGrid">
+                                    <div class="absolute inset-0 grid grid-rows-3 border-t border-slate-700/60 pointer-events-none">
+                                        <div class="border-b border-slate-700/60"></div>
+                                        <div class="border-b border-slate-700/60"></div>
+                                    </div>
+                                </template>
+                                <div class="w-12 bg-violet-500 transition-all rounded-t" :class="show3D ? 'shadow-[5px_5px_0px_0px_rgba(139,92,246,0.4)]' : ''" style="height: 60%;"></div>
+                                <div class="w-12 bg-violet-500 transition-all rounded-t" :class="show3D ? 'shadow-[5px_5px_0px_0px_rgba(139,92,246,0.4)]' : ''" style="height: 90%;"></div>
+                                <div class="w-12 bg-violet-500 transition-all rounded-t" :class="show3D ? 'shadow-[5px_5px_0px_0px_rgba(139,92,246,0.4)]' : ''" style="height: 45%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 p-3 bg-violet-950/40 border border-violet-800/40 rounded-lg text-xs text-slate-300">
+                        <i class="fa-solid fa-circle-info text-violet-400 mr-1"></i>
+                        <template x-if="dataInkRatio < 70">
+                            <span><strong>Rekomendasi:</strong> Hilangkan elemen dekoratif seperti efek 3D, latar belakang tebal, dan kisi-kisi berlebih untuk memaksimalkan kejelasan visualisasi data.</span>
+                        </template>
+                        <template x-if="dataInkRatio >= 70">
+                            <span><strong>Desain Optimal!</strong> Grafis bersih tanpa *chartjunk* membuat pengguna dapat menyerap wawasan data secara instan (< 200 ms).</span>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>Program Studi Informatika — Fakultas Teknik, Universitas Bengkulu</p>
+            <p class="mt-1 text-slate-600">Sesi 5: Practical Lecture Series - Arafat Febriandirza, S.T., M.T., Ph.D. (BRIN)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
